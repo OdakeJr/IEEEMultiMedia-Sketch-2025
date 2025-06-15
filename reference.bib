@@ -1,0 +1,1032 @@
+@inproceedings{bushra2021,
+  title = {Crime {{Investigation}} Using {{DCGAN}} by {{Forensic Sketch-to-Face Transformation}} ({{STF}})- {{A Review}}},
+  booktitle = {2021 5th {{International Conference}} on {{Computing Methodologies}} and {{Communication}} ({{ICCMC}})},
+  author = {Nikkath Bushra, S. and Uma Maheswari, K.},
+  year = {2021},
+  month = apr,
+  pages = {1343--1348},
+  doi = {10.1109/ICCMC51019.2021.9418417},
+  urldate = {2024-04-27},
+  abstract = {This paper outlines about the most advanced technique of Artificial Intelligence for digitally ascertaining a criminal through facial recognition system by converting forensic sketch into a real photo using Deep Convolutional Generative Adversarial Network (DCGAN). Suppose a crime act is reported to a cop as an eyewitness by an individual by remembering certain set of facial features of an illicit and trying to imitate it in the form of hand drawn sketch based on the given information. The forensic sketch is pictured by an expert based on the verbal explanation given by a person after commitment of crime by a perpetrator. The rough sketch is given as an input to train the neural network and after several epochs the network quickly learns and generates a scrupulous realistic facial image of a suspect from the forensic sketch. This is very much helpful in crime investigations to obtain several such real photographs of a suspect from forensic sketches easily with precise details within a short period of time. This is an amazing practice that can produce real facial images of high resolution color photos from a low quality sketches which is incomplete or partial in nature with different pose variations like color, tone etc. It is very much useful in domains like forensics, law enforcement, Facial recognition system and security and authentication systems.},
+  keywords = {Crime Investigation,Deep Convolutional Generative Adversarial Network (DCGAN),Face recognition,facial recognition,Forensics,Image color analysis,Image recognition,Image resolution,Law enforcement,Neural networks,sketch-to-image},
+  file = {/home/edu/Dg/Zotero/storage/QTNRZRM2/Nikkath Bushra and Uma Maheswari - 2021 - Crime Investigation using DCGAN by Forensic Sketch.pdf}
+}
+
+@article{canny1986,
+  title = {A {{Computational Approach}} to {{Edge Detection}}},
+  author = {Canny, John},
+  year = {1986},
+  month = nov,
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume = {PAMI-8},
+  number = {6},
+  pages = {679--698},
+  issn = {1939-3539},
+  doi = {10.1109/TPAMI.1986.4767851},
+  urldate = {2024-04-29},
+  abstract = {This paper describes a computational approach to edge detection. The success of the approach depends on the definition of a comprehensive set of goals for the computation of edge points. These goals must be precise enough to delimit the desired behavior of the detector while making minimal assumptions about the form of the solution. We define detection and localization criteria for a class of edges, and present mathematical forms for these criteria as functionals on the operator impulse response. A third criterion is then added to ensure that the detector has only one response to a single edge. We use the criteria in numerical optimization to derive detectors for several common image features, including step edges. On specializing the analysis to step edges, we find that there is a natural uncertainty principle between detection and localization performance, which are the two main goals. With this principle we derive a single operator shape which is optimal at any scale. The optimal detector has a simple approximate implementation in which edges are marked at maxima in gradient magnitude of a Gaussian-smoothed image. We extend this simple detector using operators of several widths to cope with different signal-to-noise ratios in the image. We present a general method, called feature synthesis, for the fine-to-coarse integration of information from operators at different scales. Finally we show that step edge detector performance improves considerably as the operator point spread function is extended along the edge.},
+  keywords = {Detectors,Edge detection,feature extraction,Feature extraction,Gaussian approximation,Image edge detection,image processing,machine vision,Machine vision,multiscale image analysis,Performance analysis,Shape measurement,Signal synthesis,Signal to noise ratio,Uncertainty}
+}
+
+@misc{celebA,
+  title = {{{CelebA Dataset}}},
+  year = {2016},
+  journal = {Large-scale celebfaces attributes (celeba) dataset},
+  urldate = {2024-04-27},
+  abstract = {CelebFaces Attributes Dataset (CelebA) is a large-scale face attributes dataset with more than 200K celebrity images, each with 40 attribute annotations. It has substantial pose variations and background clutter. CelebA has large diversities, large quantities, and rich annotations, including 10,177 number of identities, 202,599 number of face images, and 5 landmark locations, 40 binary attributes annotations per image. The dataset can be employed as the training and test sets for the following computer vision tasks: face attribute recognition, face detection, landmark (or facial part) localization, and face editing \& synthesis.},
+  howpublished = {http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html}
+}
+
+@article{10.1145/3386569.3392386,
+author = {Chen, Shu-Yu and Su, Wanchao and Gao, Lin and Xia, Shihong and Fu, Hongbo},
+title = {DeepFaceDrawing: deep generation of face images from sketches},
+year = {2020},
+issue_date = {August 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {39},
+number = {4},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3386569.3392386},
+doi = {10.1145/3386569.3392386},
+journal = {ACM Trans. Graph.},
+month = {aug},
+articleno = {72},
+numpages = {16},
+keywords = {face synthesis, feature embedding, image-to-image translation, sketch-based generation}
+}
+
+
+@article{chen2020,
+author = {Chen, Shu-Yu and Su, Wanchao and Gao, Lin and Xia, Shihong and Fu, Hongbo},
+title = {DeepFaceDrawing: deep generation of face images from sketches},
+year = {2020},
+issue_date = {August 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {39},
+number = {4},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3386569.3392386},
+doi = {10.1145/3386569.3392386},
+abstract = {Recent deep image-to-image translation techniques allow fast generation of face images from freehand sketches. However, existing solutions tend to overfit to sketches, thus requiring professional sketches or even edge maps as input. To address this issue, our key idea is to implicitly model the shape space of plausible face images and synthesize a face image in this space to approximate an input sketch. We take a local-to-global approach. We first learn feature embeddings of key face components, and push corresponding parts of input sketches towards underlying component manifolds defined by the feature vectors of face component samples. We also propose another deep neural network to learn the mapping from the embedded component features to realistic images with multi-channel feature maps as intermediate results to improve the information flow. Our method essentially uses input sketches as soft constraints and is thus able to produce high-quality face images even from rough and/or incomplete sketches. Our tool is easy to use even for non-artists, while still supporting fine-grained control of shape details. Both qualitative and quantitative evaluations show the superior generation ability of our system to existing and alternative solutions. The usability and expressiveness of our system are confirmed by a user study.},
+journal = {ACM Trans. Graph.},
+month = aug,
+articleno = {72},
+numpages = {16},
+keywords = {face synthesis, feature embedding, image-to-image translation, sketch-based generation}
+}
+
+@misc{chen2020_old,
+  title = {{{DeepFaceDrawing}}: {{Deep Generation}} of {{Face Images}} from {{Sketches}}},
+  author = {Chen, Shu-Yu and Su, Wanchao and Gao, Lin and Xia, Shihong and Fu, Hongbo},
+  year = {2020},
+  month = jun,
+  number = {arXiv:2006.01047},
+  eprint = {2006.01047},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2006.01047},
+  urldate = {2024-04-27},
+  abstract = {Recent deep image-to-image translation techniques allow fast generation of face images from freehand sketches. However, existing solutions tend to overfit to sketches, thus requiring professional sketches or even edge maps as input. To address this issue, our key idea is to implicitly model the shape space of plausible face images and synthesize a face image in this space to approximate an input sketch. We take a local-to-global approach. We first learn feature embeddings of key face components, and push corresponding parts of input sketches towards underlying component manifolds defined by the feature vectors of face component samples. We also propose another deep neural network to learn the mapping from the embedded component features to realistic images with multi-channel feature maps as intermediate results to improve the information flow. Our method essentially uses input sketches as soft constraints and is thus able to produce high-quality face images even from rough and/or incomplete sketches. Our tool is easy to use even for non-artists, while still supporting fine-grained control of shape details. Both qualitative and quantitative evaluations show the superior generation ability of our system to existing and alternative solutions. The usability and expressiveness of our system are confirmed by a user study.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Graphics,preprintOnly},
+  file = {/home/edu/Dg/Zotero/storage/Q7WJIQV4/Chen et al. - 2020 - Deep Generation of Face Images from Sketches.pdf}
+}
+
+@article{di2017,
+  title={Facial Synthesis From Visual Attributes via Sketch Using Multiscale Generators},
+  author={Xing Di and Vishal M. Patel},
+  journal={IEEE Transactions on Biometrics, Behavior, and Identity Science},
+  year={2019},
+  volume={2},
+  pages={55-67},
+  url={https://api.semanticscholar.org/CorpusID:209444781}
+}
+
+@misc{di2017_old,
+  title = {Face {{Synthesis}} from {{Visual Attributes}} via {{Sketch}} Using {{Conditional VAEs}} and {{GANs}}},
+  author = {Di, Xing and Patel, Vishal M.},
+  year = {2017},
+  month = dec,
+  number = {arXiv:1801.00077},
+  eprint = {1801.00077},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.1801.00077},
+  urldate = {2024-04-27},
+  abstract = {Automatic synthesis of faces from visual attributes is an important problem in computer vision and has wide applications in law enforcement and entertainment. With the advent of deep generative convolutional neural networks (CNNs), attempts have been made to synthesize face images from attributes and text descriptions. In this paper, we take a different approach, where we formulate the original problem as a stage-wise learning problem. We first synthesize the facial sketch corresponding to the visual attributes and then we reconstruct the face image based on the synthesized sketch. The proposed Attribute2Sketch2Face framework, which is based on a combination of deep Conditional Variational Autoencoder (CVAE) and Generative Adversarial Networks (GANs), consists of three stages: (1) Synthesis of facial sketch from attributes using a CVAE architecture, (2) Enhancement of coarse sketches to produce sharper sketches using a GAN-based framework, and (3) Synthesis of face from sketch using another GAN-based network. Extensive experiments and comparison with recent methods are performed to verify the effectiveness of the proposed attribute-based three stage face synthesis method.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {/home/edu/Dg/Zotero/storage/ANTL4NL4/Di and Patel - 2017 - Face Synthesis from Visual Attributes via Sketch u.pdf}
+}
+
+@misc{farid2021,
+  title = {Face Sketch to Photo Translation Using Generative Adversarial Networks},
+  author = {Farid, Nastaran Moradzadeh and Fard, Maryam Saeedi and Nickabadi, Ahmad},
+  year = {2021},
+  month = oct,
+  number = {arXiv:2110.12290},
+  eprint = {2110.12290},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2110.12290},
+  urldate = {2024-04-27},
+  abstract = {Translating face sketches to photo-realistic faces is an interesting and essential task in many applications like law enforcement and the digital entertainment industry. One of the most important challenges of this task is the inherent differences between the sketch and the real image such as the lack of color and details of the skin tissue in the sketch. With the advent of adversarial generative models, an increasing number of methods have been proposed for sketch-to-image synthesis. However, these models still suffer from limitations such as the large number of paired data required for training, the low resolution of the produced images, or the unrealistic appearance of the generated images. In this paper, we propose a method for converting an input facial sketch to a colorful photo without the need for any paired dataset. To do so, we use a pre-trained face photo generating model to synthesize high-quality natural face photos and employ an optimization procedure to keep high-fidelity to the input sketch. We train a network to map the facial features extracted from the input sketch to a vector in the latent space of the face generating model. Also, we study different optimization criteria and compare the results of the proposed model with those of the state-of-the-art models quantitatively and qualitatively. The proposed model achieved 0.655 in the SSIM index and 97.59\% rank-1 face recognition rate with higher quality of the produced images.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition}
+}
+
+@article{farid2023,
+  title = {Face {{Sketch-to-Photo Translation Using Generative Adversarial Networks}}},
+  author = {Moradzadeh Farid, Nastaran and Saeedi Fard, Maryam and Nikabadi, Ahmad},
+  year = {2023},
+  month = jun,
+  journal = {AUT Journal of Modeling and Simulation},
+  volume = {55},
+  number = {1},
+  pages = {39--52},
+  publisher = {Amirkabir University of Technology},
+  issn = {2588-2953},
+  doi = {10.22060/miscj.2023.21746.5299},
+  urldate = {2024-04-29},
+  abstract = {Translating face sketches to photo-realistic faces is an interesting and essential task in many applications like law enforcement and the digital entertainment industry. One of the most important challenges of this task is the inherent differences between the sketch and the real image such as the lack of color and details of the skin tissue in the sketch. With the advent of adversarial generative models, an increasing number of methods have been proposed for sketch-to-image synthesis. However, these models still suffer from limitations such as the large number of paired data required for training, the low resolution of the produced images, or the unrealistic appearance of the generated images. In this paper, we propose a method for converting an input facial sketch to a colorful photo without the need for any paired dataset. To do so, we use a pre-trained face photo generating model to synthesize high-quality natural face photos and employ an optimization procedure to keep high fidelity to the input sketch. We train a network to map the facial features extracted from the input sketch to a vector in the latent space of the face-generating model. Also, we study different optimization criteria and compare the results of the proposed model with those of the state-of-the-art models quantitatively and qualitatively. The proposed model achieved 0.655 in the SSIM index and 97.59\% rank-1 face recognition rate with a higher quality of the produced images.},
+  langid = {english},
+  file = {/home/edu/Dg/Zotero/storage/RLDRVQV7/Moradzadeh Farid et al. - 2023 - Face Sketch-to-Photo Translation Using Generative .pdf}
+}
+
+@misc{he2015,
+  title = {Deep {{Residual Learning}} for {{Image Recognition}}},
+  author = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  year = {2015},
+  month = dec,
+  number = {arXiv:1512.03385},
+  eprint = {1512.03385},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.1512.03385},
+  urldate = {2024-04-27},
+  abstract = {Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers---8x deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57\% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28\% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC \& COCO 2015 competitions, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition}
+}
+
+@inproceedings{he2016,
+  title = {Deep {{Residual Learning}} for {{Image Recognition}}},
+  booktitle = {2016 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  author = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  year = {2016},
+  month = jun,
+  pages = {770--778},
+  publisher = {IEEE},
+  address = {Las Vegas, NV, USA},
+  doi = {10.1109/CVPR.2016.90},
+  urldate = {2024-04-29},
+  abstract = {Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers---8{\texttimes} deeper than VGG nets [40] but still having lower complexity. An ensemble of these residual nets achieves 3.57\% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers.},
+  isbn = {978-1-4673-8851-1},
+  langid = {english},
+  file = {/home/edu/Dg/Zotero/storage/LXLJ2AJD/He et al. - 2016 - Deep Residual Learning for Image Recognition.pdf}
+}
+
+@inproceedings{higgins2022,
+  title = {Beta-{{VAE}}: {{Learning Basic Visual Concepts}} with a {{Constrained Variational Framework}}},
+  shorttitle = {Beta-{{VAE}}},
+  booktitle = {International {{Conference}} on {{Learning Representations}}},
+  author = {Higgins, Irina and Matthey, Loic and Pal, Arka and Burgess, Christopher and Glorot, Xavier and Botvinick, Matthew and Mohamed, Shakir and Lerchner, Alexander},
+  year = {2022},
+  month = jul,
+  urldate = {2024-04-27},
+  abstract = {Learning an interpretable factorised representation of the independent data generative factors of the world without supervision is an important precursor for the development of artificial intelligence that is able to learn and reason in the same way that humans do. We introduce beta-VAE, a new state-of-the-art framework for automated discovery of interpretable factorised latent representations from raw image data in a completely unsupervised manner. Our approach is a modification of the variational autoencoder (VAE) framework. We introduce an adjustable hyperparameter beta that balances latent channel capacity and independence constraints with reconstruction accuracy. We demonstrate that beta-VAE with appropriately tuned beta {$>$} 1 qualitatively outperforms VAE (beta = 1), as well as state of the art unsupervised (InfoGAN) and semi-supervised (DC-IGN) approaches to disentangled factor learning on a variety of datasets (celebA, faces and chairs). Furthermore, we devise a protocol to quantitatively compare the degree of disentanglement learnt by different models, and show that our approach also significantly outperforms all baselines quantitatively. Unlike InfoGAN, beta-VAE is stable to train, makes few assumptions about the data and relies on tuning a single hyperparameter, which can be directly optimised through a hyper parameter search using weakly labelled data or through heuristic visual inspection for purely unsupervised data.},
+  langid = {english},
+  file = {/home/edu/Dg/Zotero/storage/YXY5IKRU/Higgins et al. - 2022 - beta-VAE Learning Basic Visual Concepts with a Co.pdf}
+}
+
+@article{hu2020,
+  title = {Facial Attribute-Controlled Sketch-to-Image Translation with Generative Adversarial Networks},
+  author = {Hu, Mingming and Guo, Jingtao},
+  year = {2020},
+  month = jan,
+  journal = {EURASIP Journal on Image and Video Processing},
+  volume = {2020},
+  number = {1},
+  pages = {2},
+  issn = {1687-5281},
+  doi = {10.1186/s13640-020-0489-5},
+  urldate = {2024-04-27},
+  abstract = {Due to the rapid development of the generative adversarial networks (GANs) and convolution neural networks (CNN), increasing attention is being paid to face synthesis. In this paper, we address the new and challenging task of facial sketch-to-image synthesis with multiple controllable attributes. To achieve this goal, first, we propose a new attribute classification loss to ensure that the synthesized face image with the facial attributes, which the users desire to have. Second, we employ the reconstruction loss to synthesize the facial texture and structure information. Third, the adversarial loss is used to encourage visual authenticity. By incorporating above losses into a unified framework, our proposed method not only can achieve high-quality sketch-to-image translation, but also allow the users control the facial attributes of synthesized image. Extensive experiments show that user-provided facial attribute information effectively controls the process of facial sketch-to-image translation.},
+  keywords = {Face sketch to image translation,Facial attribute classifier,Facial attribute editing,Generative adversarial networks (GANs)},
+  file = {/home/edu/Dg/Zotero/storage/AIEJJ6T5/Hu and Guo - 2020 - Facial attribute-controlled sketch-to-image transl.pdf;/home/edu/Dg/Zotero/storage/9V7F5LTF/s13640-020-0489-5.html}
+}
+
+@inproceedings{isola2017,
+  title = {Image-to-{{Image Translation}} with {{Conditional Adversarial Networks}}},
+  booktitle = {2017 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  author = {Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A.},
+  year = {2017},
+  month = jul,
+  pages = {5967--5976},
+  publisher = {IEEE Computer Society},
+  issn = {1063-6919},
+  doi = {10.1109/CVPR.2017.632},
+  urldate = {2024-04-29},
+  abstract = {We investigate conditional adversarial networks as a general-purpose solution to image-to-image translation problems. These networks not only learn the mapping from input image to output image, but also learn a loss function to train this mapping. This makes it possible to apply the same generic approach to problems that traditionally would require very different loss formulations. We demonstrate that this approach is effective at synthesizing photos from label maps, reconstructing objects from edge maps, and colorizing images, among other tasks. Moreover, since the release of the pi{\texttimes}2pi{\texttimes} software associated with this paper, hundreds of twitter users have posted their own artistic experiments using our system. As a community, we no longer hand-engineer our mapping functions, and this work suggests we can achieve reasonable results without handengineering our loss functions either.},
+  isbn = {978-1-5386-0457-1},
+  langid = {english},
+  file = {/home/edu/Dg/Zotero/storage/R6VAF3II/Isola et al. - 2017 - Image-to-Image Translation with Conditional Advers.pdf}
+}
+
+@misc{isola2018,
+  title = {Image-to-{{Image Translation}} with {{Conditional Adversarial Networks}}},
+  author = {Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A.},
+  year = {2018},
+  month = nov,
+  number = {arXiv:1611.07004},
+  eprint = {1611.07004},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.1611.07004},
+  urldate = {2024-04-27},
+  abstract = {We investigate conditional adversarial networks as a general-purpose solution to image-to-image translation problems. These networks not only learn the mapping from input image to output image, but also learn a loss function to train this mapping. This makes it possible to apply the same generic approach to problems that traditionally would require very different loss formulations. We demonstrate that this approach is effective at synthesizing photos from label maps, reconstructing objects from edge maps, and colorizing images, among other tasks. Indeed, since the release of the pix2pix software associated with this paper, a large number of internet users (many of them artists) have posted their own experiments with our system, further demonstrating its wide applicability and ease of adoption without the need for parameter tweaking. As a community, we no longer hand-engineer our mapping functions, and this work suggests we can achieve reasonable results without hand-engineering our loss functions either.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition}
+}
+
+@inproceedings{li2020,
+  title = {{{DeepFacePencil}}: {{Creating Face Images}} from {{Freehand Sketches}}},
+  shorttitle = {{{DeepFacePencil}}},
+  booktitle = {Proceedings of the 28th {{ACM International Conference}} on {{Multimedia}}},
+  author = {Li, Yuhang and Chen, Xuejin and Yang, Binxin and Chen, Zihan and Cheng, Zhihua and Zha, Zheng-Jun},
+  year = {2020},
+  month = oct,
+  eprint = {2008.13343},
+  primaryclass = {cs},
+  pages = {991--999},
+  doi = {10.1145/3394171.3413684},
+  urldate = {2024-04-27},
+  abstract = {In this paper, we explore the task of generating photo-realistic face images from hand-drawn sketches. Existing image-to-image translation methods require a large-scale dataset of paired sketches and images for supervision. They typically utilize synthesized edge maps of face images as training data. However, these synthesized edge maps strictly align with the edges of the corresponding face images, which limit their generalization ability to real hand-drawn sketches with vast stroke diversity. To address this problem, we propose DeepFacePencil, an effective tool that is able to generate photo-realistic face images from hand-drawn sketches, based on a novel dual generator image translation network during training. A novel spatial attention pooling (SAP) is designed to adaptively handle stroke distortions which are spatially varying to support various stroke styles and different levels of details. We conduct extensive experiments and the results demonstrate the superiority of our model over existing methods on both image quality and model generalization to hand-drawn sketches.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {/home/edu/Dg/Zotero/storage/5T7L7NJ6/Li et al. - 2020 - DeepFacePencil Creating Face Images from Freehand.pdf}
+}
+
+@article{li2022a,
+  title = {Sketch-to-Photo Face Generation Based on Semantic Consistency Preserving and Similar Connected Component Refinement},
+  author = {Li, Luying and Tang, Junshu and Shao, Zhiwen and Tan, Xin and Ma, Lizhuang},
+  year = {2022},
+  month = nov,
+  journal = {The Visual Computer},
+  volume = {38},
+  number = {11},
+  pages = {3577--3594},
+  issn = {1432-2315},
+  doi = {10.1007/s00371-021-02188-1},
+  urldate = {2024-04-29},
+  abstract = {Sketch-to-photo face generation has recently gained remarkable attention in computer vision and signal processing communities, because the sketches that employ concise lines are easily available and can describe significant facial attributes conveniently. Most existing sketch-to-photo works fail to maintain geometric structures and improve local details simultaneously, which limits their performance. In this work, we propose a two-stage sketch-to-photo generative adversarial network for face generation. In the first stage, we propose a semantic loss to maintain semantic consistency. In the second stage, we define the similar connected component and propose a color refinement loss to generate fine-grained details. Moreover, we introduce a multi-scale discriminator and design a patch-level local discriminator. We also propose a texture loss to enhance the local fidelity of synthesized images. Experiments show that our proposed method can significantly generate better results while preserving facial attributes than the state-of-the-art methods.},
+  langid = {english},
+  keywords = {Generative adversarial networks (GAN),Image generation,Image-to-image translation,Sketch-to-photo face synthesis},
+  file = {/home/edu/Dg/Zotero/storage/VCSNP2TF/Li et al. - 2022 - Sketch-to-photo face generation based on semantic .pdf}
+}
+
+@inproceedings{liu2015,
+  title = {Deep {{Learning Face Attributes}} in the {{Wild}}},
+  booktitle = {Proceedings of International Conference on Computer Vision ({{ICCV}})},
+  author = {Liu, Ziwei and Luo, Ping and Wang, Xiaogang and Tang, Xiaoou},
+  year = {2015},
+  abstract = {Predicting face attributes in the wild is challenging due to complex face variations. We propose a novel deep learning framework for attribute prediction in the wild. It cascades two CNNs, LNet and ANet, which are finetuned jointly with attribute tags, but pre-trained differently. LNet is pre-trained by massive general object categories for face localization, while ANet is pre-trained by massive face identities for attribute prediction. This framework not only outperforms the state-of-the-art with a large margin, but also reveals valuable facts on learning face representation. (1) It shows how the performances of face localization (LNet) and attribute prediction (ANet) can be improved by different pre-training strategies. (2) It reveals that although the filters of LNet are fine-tuned only with imagelevel attribute tags, their response maps over entire images have strong indication of face locations. This fact enables training LNet for face localization with only image-level annotations, but without face bounding boxes or landmarks, which are required by all attribute recognition works. (3) It also demonstrates that the high-level hidden neurons of ANet automatically discover semantic concepts after pretraining with massive face identities, and such concepts are significantly enriched after fine-tuning with attribute tags. Each attribute can be well explained with a sparse linear combination of these concepts.},
+  langid = {english},
+  file = {/home/edu/Dg/Zotero/storage/6CLDRCE8/Liu et al. - Deep Learning Face Attributes in the Wild.pdf}
+}
+
+@inproceedings{lu2018,
+  title = {Image {{Generation}} from {{Sketch Constraint Using Contextual GAN}}},
+  booktitle = {Computer {{Vision}} -- {{ECCV}} 2018},
+  author = {Lu, Yongyi and Wu, Shangzhe and Tai, Yu-Wing and Tang, Chi-Keung},
+  editor = {Ferrari, Vittorio and Hebert, Martial and Sminchisescu, Cristian and Weiss, Yair},
+  year = {2018},
+  pages = {213--228},
+  publisher = {Springer International Publishing},
+  address = {Cham},
+  doi = {10.1007/978-3-030-01270-0_13},
+  abstract = {In this paper we investigate image generation guided by hand sketch. When the input sketch is badly drawn, the output of common image-to-image translation follows the input edges due to the hard condition imposed by the translation process. Instead, we propose to use sketch as weak constraint, where the output edges do not necessarily follow the input edges. We address this problem using a novel joint image completion approach, where the sketch provides the image context for completing, or generating the output image. We train a generated adversarial network, i.e, contextual GAN to learn the joint distribution of sketch and the corresponding image by using joint images. Our contextual GAN has several advantages. First, the simple joint image representation allows for simple and effective learning of joint distribution in the same image-sketch space, which avoids complicated issues in cross-domain learning. Second, while the output is related to its input overall, the generated features exhibit more freedom in appearance and do not strictly align with the input features as previous conditional GANs do. Third, from the joint image's point of view, image and sketch are of no difference, thus exactly the same deep joint image completion network can be used for image-to-sketch generation. Experiments evaluated on three different datasets show that our contextual GAN can generate more realistic images than state-of-the-art conditional GANs on challenging inputs and generalize well on common categories.},
+  isbn = {978-3-030-01270-0},
+  langid = {english},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Contextual completion,Image generation},
+  file = {/home/edu/Dg/Zotero/storage/54YU4JVJ/Lu et al. - 2018 - Image Generation from Sketch Constraint Using Cont.pdf}
+}
+
+@inproceedings{Cemgil,
+author = {Cemgil, A. Taylan and Ghaisas, Sumedh and Dvijotham, Krishnamurthy and Gowal, Sven and Kohli, Pushmeet},
+title = {The autoencoding variational autoencoder},
+year = {2020},
+isbn = {9781713829546},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {Does a Variational AutoEncoder (VAE) consistently encode typical samples generated from its decoder? This paper shows that the perhaps surprising answer to this question is 'No'; a (nominally trained) VAE does not necessarily amortize inference for typical samples that it is capable of generating. We study the implications of this behaviour on the learned representations and also the consequences of fixing it by introducing a notion of self consistency. Our approach hinges on an alternative construction of the variational approximation distribution to the true posterior of an extended VAE model with a Markov chain alternating between the encoder and the decoder. The method can be used to train a VAE model from scratch or given an already trained VAE, it can be run as a post processing step in an entirely self supervised way without access to the original training data. Our experimental analysis reveals that encoders trained with our self-consistency approach lead to representations that are robust (insensitive) to perturbations in the input introduced by adversarial attacks. We provide experimental results on the ColorMnist and CelebA benchmark datasets that quantify the properties of the learned representations and compare the approach with a baseline that is specifically trained for the desired property.},
+booktitle = {Proceedings of the 34th International Conference on Neural Information Processing Systems},
+articleno = {1264},
+numpages = {11},
+location = {Vancouver, BC, Canada},
+series = {NIPS '20}
+}
+
+@misc{odaibo2019_old,
+  title = {Tutorial: {{Deriving}} the {{Standard Variational Autoencoder}} ({{VAE}}) {{Loss Function}}},
+  shorttitle = {Tutorial},
+  author = {Odaibo, Stephen},
+  year = {2019},
+  month = jul,
+  number = {arXiv:1907.08956},
+  eprint = {1907.08956},
+  primaryclass = {cs, stat},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.1907.08956},
+  urldate = {2024-04-27},
+  abstract = {In Bayesian machine learning, the posterior distribution is typically computationally intractable, hence variational inference is often required. In this approach, an evidence lower bound on the log likelihood of data is maximized during training. Variational Autoencoders (VAE) are one important example where variational inference is utilized. In this tutorial, we derive the variational lower bound loss function of the standard variational autoencoder. We do so in the instance of a gaussian latent prior and gaussian approximate posterior, under which assumptions the Kullback-Leibler term in the variational lower bound has a closed form solution. We derive essentially everything we use along the way; everything from Bayes' theorem to the Kullback-Leibler divergence.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Machine Learning,preprintOnly,Statistics - Machine Learning}
+}
+
+@article{oktay2018,
+  title={Attention U-Net: Learning Where to Look for the Pancreas},
+  author={Ozan Oktay and Jo Schlemper and Lo{\"i}c Le Folgoc and M. J. Lee and Mattias P. Heinrich and Kazunari Misawa and Kensaku Mori and Steven G. McDonagh and Nils Y. Hammerla and Bernhard Kainz and Ben Glocker and Daniel Rueckert},
+  journal={ArXiv},
+  year={2018},
+  volume={abs/1804.03999},
+  url={https://api.semanticscholar.org/CorpusID:4861068}
+}
+
+@misc{oktay2018_old,
+  title = {Attention {{U-Net}}: {{Learning Where}} to {{Look}} for the {{Pancreas}}},
+  shorttitle = {Attention {{U-Net}}},
+  author = {Oktay, Ozan and Schlemper, Jo and Folgoc, Loic Le and Lee, Matthew and Heinrich, Mattias and Misawa, Kazunari and Mori, Kensaku and McDonagh, Steven and Hammerla, Nils Y. and Kainz, Bernhard and Glocker, Ben and Rueckert, Daniel},
+  year = {2018},
+  month = may,
+  number = {arXiv:1804.03999},
+  eprint = {1804.03999},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.1804.03999},
+  urldate = {2024-04-29},
+  abstract = {We propose a novel attention gate (AG) model for medical imaging that automatically learns to focus on target structures of varying shapes and sizes. Models trained with AGs implicitly learn to suppress irrelevant regions in an input image while highlighting salient features useful for a specific task. This enables us to eliminate the necessity of using explicit external tissue/organ localisation modules of cascaded convolutional neural networks (CNNs). AGs can be easily integrated into standard CNN architectures such as the U-Net model with minimal computational overhead while increasing the model sensitivity and prediction accuracy. The proposed Attention U-Net architecture is evaluated on two large CT abdominal datasets for multi-class image segmentation. Experimental results show that AGs consistently improve the prediction performance of U-Net across different datasets and training sizes while preserving computational efficiency. The code for the proposed architecture is publicly available.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {/home/edu/Dg/Zotero/storage/DYZJVC4H/Oktay et al. - 2018 - Attention U-Net Learning Where to Look for the Pa.pdf;/home/edu/Dg/Zotero/storage/8R5YALHL/1804.html}
+}
+
+@inproceedings{oktay2022,
+  title = {Attention {{U-Net}}: {{Learning Where}} to {{Look}} for the {{Pancreas}}},
+  shorttitle = {Attention {{U-Net}}},
+  booktitle = {Medical {{Imaging}} with {{Deep Learning}}},
+  author = {Oktay, Ozan and Schlemper, Jo and Folgoc, Loic Le and Lee, Matthew and Heinrich, Mattias and Misawa, Kazunari and Mori, Kensaku and McDonagh, Steven and Hammerla, Nils Y. and Kainz, Bernhard and Glocker, Ben and Rueckert, Daniel},
+  year = {2022},
+  month = jul,
+  urldate = {2024-04-29},
+  abstract = {We propose a novel attention gate (AG) model for medical imaging that automatically learns to focus on target structures of varying shapes and sizes. Models trained with AGs implicitly learn to suppress irrelevant regions in an input image while highlighting salient features useful for a specific task. This enables us to eliminate the necessity of using explicit external tissue/organ localisation modules of cascaded convolutional neural networks (CNNs). AGs can be easily integrated into standard CNN architectures such as the U-Net model with minimal computational overhead while increasing the model sensitivity and prediction accuracy. The proposed Attention U-Net architecture is evaluated on two large CT abdominal datasets for multi-class image segmentation. Experimental results show that AGs consistently improve the prediction performance of U-Net across different datasets and training sizes while preserving computational efficiency. The code for the proposed architecture is publicly available.},
+  langid = {english},
+  file = {/home/edu/Dg/Zotero/storage/UVCSQIWU/Oktay et al. - 2022 - Attention U-Net Learning Where to Look for the Pa.pdf}
+}
+
+@article{osahor2022,
+  title = {Text-{{Guided Sketch-to-Photo Image Synthesis}}},
+  author = {Osahor, Uche and Nasrabadi, Nasser M.},
+  year = {2022},
+  journal = {IEEE Access},
+  volume = {10},
+  pages = {98278--98289},
+  issn = {2169-3536},
+  doi = {10.1109/ACCESS.2022.3206771},
+  abstract = {We propose a text-guided sketch-to-image synthesis model that semantically mixes style and content features from the latent space of an inverted Generative Adversarial Network (GAN). Our goal is to synthesize plausible images from human facial sketches and their respective text descriptions. In our approach, we adapted a generative model termed Contextual GAN (CT-GAN) that efficiently encodes visual-linguistic semantic features pre-trained on over 400 million text-image pairs at different resolutions along the model. Also, we introduced an intermediate mapping network called c-Map that combines textual and visual-based features to a disentangled latent space {\textbackslash}mathcal W+ for better feature matching. Furthermore to maximise the computational performance of our model, we implemented a linear-based attention scheme along the pipeline of our model to eliminate the drawbacks of inefficient attention modules that are quadratic in complexity. Finally, the hierarchical setting of our model ensures that textual, style and content features are synthesised based on their unique fine grained details, which result in visually appealing images.},
+  keywords = {Adaptation models,Computational modeling,Context modeling,Contextual GAN (CT-GAN),generative adversarial network (GAN),Generative adversarial networks,Generators,Image synthesis,Semantics,Text processing,text-guided sketch-to-image synthesis},
+  file = {/home/edu/Dg/Zotero/storage/ACJDZDKG/Osahor and Nasrabadi - 2022 - Text-Guided Sketch-to-Photo Image Synthesis.pdf;/home/edu/Dg/Zotero/storage/WAXDJGFS/9893101.html}
+}
+
+@article{pang2022,
+  title = {Image-to-{{Image Translation}}: {{Methods}} and {{Applications}}},
+  shorttitle = {Image-to-{{Image Translation}}},
+  author = {Pang, Yingxue and Lin, Jianxin and Qin, Tao and Chen, Zhibo},
+  year = {2022},
+  journal = {IEEE Transactions on Multimedia},
+  volume = {24},
+  pages = {3859--3881},
+  issn = {1520-9210, 1941-0077},
+  doi = {10.1109/TMM.2021.3109419},
+  urldate = {2024-04-27},
+  copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+  file = {/home/edu/Dg/Zotero/storage/QPWRGXLS/Pang et al. - 2022 - Image-to-Image Translation Methods and Applicatio.pdf}
+}
+
+@phdthesis{ramy2022,
+  title = {Sketch to {{Image Using Generative Adversarial Networks}} ({{GAN}})},
+  author = {Ramy, Ahmed and  Barakat, Nahla Hosny},
+  year = {2022},
+  address = {Egypt},
+  urldate = {2024-04-27},
+  langid = {english},
+  lccn = {10.13140/RG.2.2.16797.38889},
+  school = {The British University},
+  file = {/home/edu/Dg/Zotero/storage/ERCBXNP8/Ramy et al. - 2022 - Sketch to Image Using Generative Adversarial Netwo.pdf}
+}
+
+@inproceedings{junior2024sketch,
+  author    = {Edson Odake and Eduardo Parente},
+  title     = {Sketch guided face synthesis using conditional variational autoencoder},
+  booktitle = {XLII Brazilian Symposium on Telecommunications and Signal Processing (SBrT)},
+  pages     = {},
+  year      = {2024},
+  month     = {October},
+  doi       = {10.14209/sbrt.2024.1571027732},
+  url       = {}
+}
+
+
+@InProceedings{10.1007/978-3-319-24574-4_28,
+author="Ronneberger, Olaf
+and Fischer, Philipp
+and Brox, Thomas",
+editor="Navab, Nassir
+and Hornegger, Joachim
+and Wells, William M.
+and Frangi, Alejandro F.",
+title="U-Net: Convolutional Networks for Biomedical Image Segmentation",
+booktitle="Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2015",
+year="2015",
+publisher="Springer International Publishing",
+address="Cham",
+pages="234--241",
+isbn="978-3-319-24574-4"
+}
+
+@ARTICLE{10466756,
+  author={Baraheem, Samah S. and Nguyen, Tam V.},
+  journal={IEEE MultiMedia}, 
+  title={S5: Sketch-to-Image Synthesis via Scene and Size Sensing}, 
+  year={2024},
+  volume={31},
+  number={2},
+  pages={7-16},
+  keywords={Image synthesis;Instance segmentation;Feature extraction;Semantics;Image edge detection;Task analysis;Image analysis},
+  doi={10.1109/MMUL.2024.3375610}}
+
+
+@article{Jain,
+author = {Jain, Anil and Klare, Brendan and Park, Unsang},
+year = {2012},
+month = {01},
+pages = {20},
+title = {Face Matching and Retrieval in Forensics Applications},
+volume = {19},
+journal = {IEEE MultiMedia},
+doi = {10.1109/MMUL.2012.4}
+}
+
+@misc{ronneberger2015,
+  title = {U-{{Net}}: {{Convolutional Networks}} for {{Biomedical Image Segmentation}}},
+  shorttitle = {U-{{Net}}},
+  author = {Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas},
+  year = {2015},
+  month = may,
+  number = {arXiv:1505.04597},
+  eprint = {1505.04597},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.1505.04597},
+  urldate = {2024-04-27},
+  abstract = {There is large consent that successful training of deep networks requires many thousand annotated training samples. In this paper, we present a network and training strategy that relies on the strong use of data augmentation to use the available annotated samples more efficiently. The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. We show that such a network can be trained end-to-end from very few images and outperforms the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks. Using the same network trained on transmitted light microscopy images (phase contrast and DIC) we won the ISBI cell tracking challenge 2015 in these categories by a large margin. Moreover, the network is fast. Segmentation of a 512x512 image takes less than a second on a recent GPU. The full implementation (based on Caffe) and the trained networks are available at http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net .},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition}
+}
+
+@article{sun2022,
+  title = {Face Image-Sketch Synthesis via Generative Adversarial Fusion},
+  author = {Sun, Jianyuan and Yu, Hongchuan and Zhang, Jian J. and Dong, Junyu and Yu, Hui and Zhong, Guoqiang},
+  year = {2022},
+  month = oct,
+  journal = {Neural Networks},
+  volume = {154},
+  pages = {179--189},
+  issn = {0893-6080},
+  doi = {10.1016/j.neunet.2022.07.013},
+  urldate = {2024-04-27},
+  abstract = {Face image-sketch synthesis is widely applied in law enforcement and digital entertainment fields. Despite the extensive progression in face image-sketch synthesis, there are few methods focusing on generating a color face image from a sketch. The existing methods pay less attention to learning the illumination or highlight distribution on the face region. However, the illumination is the key factor that makes the generated color face image looks vivid and realistic. Moreover, existing methods tend to employ some image preprocessing technologies and facial region patching approaches to generate high-quality face images, which results in the high complexity and memory consumption in practice. In this paper, we propose a novel end-to-end generative adversarial fusion model, called GAF, which fuses two U-Net generators and a discriminator by jointly learning the content and adversarial loss functions. In particular, we propose a parametric tanh activation function to learn and control illumination highlight distribution over faces, which is integrated between the two U-Net generators by an illumination distribution layer. Additionally, we fuse the attention mechanism into the second U-Net generator of GAF to keep the identity consistency and refine the generated facial details. The qualitative and quantitative experiments on the public benchmark datasets show that the proposed GAF has better performance than existing image-sketch synthesis methods in synthesized face image quality (FSIM) and face recognition accuracy (NLDA). Meanwhile, the good generalization ability of GAF has also been verified. To further demonstrate the reliability and authenticity of face images generated using GAF, we use the generated face image to attack the well-known face recognition system. The result shows that the face images generated by GAF can maintain identity consistency and well maintain everyone's unique facial characteristics, which can be further used in the benchmark of facial spoofing. Moreover, the experiments are implemented to verify the effectiveness and rationality of the proposed parametric tanh activation function and attention mechanism in GAF.},
+  keywords = {Attention mechanism,Generated face image,Illumination distribution layer,U-net generator},
+  file = {/home/edu/Dg/Zotero/storage/NIBJFGNM/Sun et al. - 2022 - Face image-sketch synthesis via generative adversa.pdf;/home/edu/Dg/Zotero/storage/UU2EZN7X/1-s2.0-S0893608022002696-main.pdf}
+}
+
+@article{wang2004,
+  title = {Image Quality Assessment: From Error Visibility to Structural Similarity},
+  shorttitle = {Image Quality Assessment},
+  author = {Wang, Zhou and Bovik, A.C. and Sheikh, H.R. and Simoncelli, E.P.},
+  year = {2004},
+  month = apr,
+  journal = {IEEE Transactions on Image Processing},
+  volume = {13},
+  number = {4},
+  pages = {600--612},
+  issn = {1941-0042},
+  doi = {10.1109/TIP.2003.819861},
+  urldate = {2023-12-04},
+  abstract = {Objective methods for assessing perceptual image quality traditionally attempted to quantify the visibility of errors (differences) between a distorted image and a reference image using a variety of known properties of the human visual system. Under the assumption that human visual perception is highly adapted for extracting structural information from a scene, we introduce an alternative complementary framework for quality assessment based on the degradation of structural information. As a specific example of this concept, we develop a structural similarity index and demonstrate its promise through a set of intuitive examples, as well as comparison to both subjective ratings and state-of-the-art objective methods on a database of images compressed with JPEG and JPEG2000. A MATLAB implementation of the proposed algorithm is available online at http://www.cns.nyu.edu//spl sim/lcv/ssim/.},
+  keywords = {Data mining,Degradation,Humans,Image quality,Indexes,Layout,Quality assessment,Transform coding,Visual perception,Visual system}
+}
+
+@inproceedings{wang2018,
+  title = {High-{{Quality Facial Photo-Sketch Synthesis Using Multi-Adversarial Networks}}},
+  booktitle = {2018 13th {{IEEE International Conference}} on {{Automatic Face}} \& {{Gesture Recognition}} ({{FG}} 2018)},
+  author = {Wang, Lidan and Sindagi, Vishwanath and Patel, Vishal},
+  year = {2018},
+  month = may,
+  pages = {83--90},
+  doi = {10.1109/FG.2018.00022},
+  urldate = {2024-04-27},
+  abstract = {Synthesizing face sketches from real photos and its inverse have many applications. However, photo/sketch synthesis remains a challenging problem due to the fact that photo and sketch have different characteristics. In this work, we consider this task as an image-to-image translation problem and explore the recently popular generative models (GANs) to generate high-quality realistic photos from sketches and sketches from photos. Recent GAN-based methods have shown promising results on image-to-image translation problems and photo-to-sketch synthesis in particular, however, they are known to have limited abilities in generating high-resolution realistic images. To this end, we propose a novel synthesis framework called Photo-Sketch Synthesis using Multi-Adversarial Networks, (PS2-MAN) that iteratively generates low resolution to high resolution images in an adversarial way. The hidden layers of the generator are supervised to first generate lower resolution images followed by implicit refinement in the network to generate higher resolution images. Furthermore, since photo-sketch synthesis is a coupled/paired translation problem, we leverage the pair information using CycleGAN framework. Both Image Quality Assessment (IQA) and Photo-Sketch Matching experiments are conducted to demonstrate the superior performance of our framework in comparison to existing state-of-the-art solutions. Code available at: https://github.com/lidan1/PhotoSketchMAN.},
+  keywords = {Deconvolution,Face,face photo sketch synthesis,face recognition,Gallium nitride,Generators,Hidden Markov models,Image resolution,image-to-image translation,multi-adversarial networks,Task analysis},
+  file = {/home/edu/Dg/Zotero/storage/CICGTY8V/Wang et al. - 2018 - High-Quality Facial Photo-Sketch Synthesis Using M.pdf}
+}
+
+@article{winnemoller2012,
+  title = {{{XDoG}}: {{An eXtended}} Difference-of-{{Gaussians}} Compendium Including Advanced Image Stylization},
+  shorttitle = {{{XDoG}}},
+  author = {Winnem{\"o}ller, Holger and Kyprianidis, Jan Eric and Olsen, Sven C.},
+  year = {2012},
+  month = oct,
+  journal = {Computers \& Graphics},
+  series = {2011 {{Joint Symposium}} on {{Computational Aesthetics}} ({{CAe}}), {{Non-Photorealistic Animation}} and {{Rendering}} ({{NPAR}}), and {{Sketch-Based Interfaces}} and {{Modeling}} ({{SBIM}})},
+  volume = {36},
+  number = {6},
+  pages = {740--753},
+  issn = {0097-8493},
+  doi = {10.1016/j.cag.2012.03.004},
+  urldate = {2024-04-27},
+  abstract = {Recent extensions to the standard difference-of-Gaussians (DoG) edge detection operator have rendered it less susceptible to noise and increased its aesthetic appeal. Despite these advances, the technical subtleties and stylistic potential of the DoG operator are often overlooked. This paper offers a detailed review of the DoG operator and its extensions, highlighting useful relationships to other image processing techniques. It also presents many new results spanning a variety of styles, including pencil-shading, pastel, hatching, and woodcut. Additionally, we demonstrate a range of subtle artistic effects, such as ghosting, speed-lines, negative edges, indication, and abstraction, all of which are obtained using an extended DoG formulation, or slight modifications thereof. In all cases, the visual quality achieved by the extended DoG operator is comparable to or better than those of systems dedicated to a single style.},
+  keywords = {Cartoon effects,Difference-of-Gaussians,Edge detector,Hatching,Negative edges,Sketch,Threshold,Woodcut}
+}
+
+@INPROCEEDINGS{xia2021,
+  author={Xia, Weihao and Yang, Yujiu and Xue, Jing-Hao and Wu, Baoyuan},
+  booktitle={2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={TediGAN: Text-Guided Diverse Face Image Generation and Manipulation}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={2256-2265},
+  keywords={Image segmentation;Computer vision;Image resolution;Image synthesis;Face recognition;Semantics;Aerospace electronics},
+  doi={10.1109/CVPR46437.2021.00229}}
+
+
+@misc{xia2021_old,
+  title = {{{TediGAN}}: {{Text-Guided Diverse Face Image Generation}} and {{Manipulation}}},
+  shorttitle = {{{TediGAN}}},
+  author = {Xia, Weihao and Yang, Yujiu and Xue, Jing-Hao and Wu, Baoyuan},
+  year = {2021},
+  month = mar,
+  number = {arXiv:2012.03308},
+  eprint = {2012.03308},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2012.03308},
+  urldate = {2024-04-27},
+  abstract = {In this work, we propose TediGAN, a novel framework for multi-modal image generation and manipulation with textual descriptions. The proposed method consists of three components: StyleGAN inversion module, visual-linguistic similarity learning, and instance-level optimization. The inversion module maps real images to the latent space of a well-trained StyleGAN. The visual-linguistic similarity learns the text-image matching by mapping the image and text into a common embedding space. The instance-level optimization is for identity preservation in manipulation. Our model can produce diverse and high-quality images with an unprecedented resolution at 1024. Using a control mechanism based on style-mixing, our TediGAN inherently supports image synthesis with multi-modal inputs, such as sketches or semantic labels, with or without instance guidance. To facilitate text-guided multi-modal synthesis, we propose the Multi-Modal CelebA-HQ, a large-scale dataset consisting of real face images and corresponding semantic segmentation map, sketch, and textual descriptions. Extensive experiments on the introduced dataset demonstrate the superior performance of our proposed method. Code and data are available at https://github.com/weihaox/TediGAN.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Multimedia}
+}
+
+@misc{yu2020b,
+  title = {Towards {{Realistic Face Photo-Sketch Synthesis}} via {{Composition-Aided GANs}}},
+  author = {Yu, Jun and Xu, Xingxin and Gao, Fei and Shi, Shengjie and Wang, Meng and Tao, Dacheng and Huang, Qingming},
+  year = {2020},
+  month = jan,
+  number = {arXiv:1712.00899},
+  eprint = {1712.00899},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.1712.00899},
+  urldate = {2024-04-27},
+  abstract = {Face photo-sketch synthesis aims at generating a facial sketch/photo conditioned on a given photo/sketch. It is of wide applications including digital entertainment and law enforcement. Precisely depicting face photos/sketches remains challenging due to the restrictions on structural realism and textural consistency. While existing methods achieve compelling results, they mostly yield blurred effects and great deformation over various facial components, leading to the unrealistic feeling of synthesized images. To tackle this challenge, in this work, we propose to use the facial composition information to help the synthesis of face sketch/photo. Specially, we propose a novel composition-aided generative adversarial network (CA-GAN) for face photo-sketch synthesis. In CA-GAN, we utilize paired inputs including a face photo/sketch and the corresponding pixel-wise face labels for generating a sketch/photo. In addition, to focus training on hard-generated components and delicate facial structures, we propose a compositional reconstruction loss. Finally, we use stacked CA-GANs (SCA-GAN) to further rectify defects and add compelling details. Experimental results show that our method is capable of generating both visually comfortable and identity-preserving face sketches/photos over a wide range of challenging data. Our method achieves the state-of-the-art quality, reducing best previous Frechet Inception distance (FID) by a large margin. Besides, we demonstrate that the proposed method is of considerable generalization ability. We have made our code and results publicly available: https://fei-hdu.github.io/ca-gan/.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition}
+}
+
+@article{yu2021,
+  title = {Toward {{Realistic Face Photo}}--{{Sketch Synthesis}} via {{Composition-Aided GANs}}},
+  author = {Yu, Jun and Xu, Xingxin and Gao, Fei and Shi, Shengjie and Wang, Meng and Tao, Dacheng and Huang, Qingming},
+  year = {2021},
+  month = sep,
+  journal = {IEEE Transactions on Cybernetics},
+  volume = {51},
+  number = {9},
+  pages = {4350--4362},
+  issn = {2168-2275},
+  doi = {10.1109/TCYB.2020.2972944},
+  urldate = {2024-04-29},
+  abstract = {Face photo-sketch synthesis aims at generating a facial sketch/photo conditioned on a given photo/sketch. It covers wide applications including digital entertainment and law enforcement. Precisely depicting face photos/sketches remains challenging due to the restrictions on structural realism and textural consistency. While existing methods achieve compelling results, they mostly yield blurred effects and great deformation over various facial components, leading to the unrealistic feeling of synthesized images. To tackle this challenge, in this article, we propose using facial composition information to help the synthesis of face sketch/photo. Especially, we propose a novel composition-aided generative adversarial network (CA-GAN) for face photo-sketch synthesis. In CA-GAN, we utilize paired inputs, including a face photo/sketch and the corresponding pixelwise face labels for generating a sketch/photo. Next, to focus training on hard-generated components and delicate facial structures, we propose a compositional reconstruction loss. In addition, we employ a perceptual loss function to encourage the synthesized image and real image to be perceptually similar. Finally, we use stacked CA-GANs (SCA-GANs) to further rectify defects and add compelling details. The experimental results show that our method is capable of generating both visually comfortable and identity-preserving face sketches/photos over a wide range of challenging data. In addition, our method significantly decreases the best previous Fr{\'e}chet inception distance (FID) from 36.2 to 26.2 for sketch synthesis, and from 60.9 to 30.5 for photo synthesis. Besides, we demonstrate that the proposed method is of considerable generalization ability.},
+  keywords = {Computational modeling,Computer science,Deep learning,Face,face parsing,face photo-sketch synthesis,Gallium nitride,generative adversarial network (GAN),Generative adversarial networks,Generators,image-to-image translation,Training},
+  file = {/home/edu/Dg/Zotero/storage/S63JEZ8T/Yu et al. - 2021 - Toward Realistic Face Photo–Sketch Synthesis via C.pdf;/home/edu/Dg/Zotero/storage/FYMTL98F/9025751.html}
+}
+
+@misc{zotero-8564,
+  title = {{{OpenCV}}: {{Canny Edge Detector}}},
+  urldate = {2024-04-27},
+  howpublished = {https://docs.opencv.org/4.x/da/d5c/tutorial\_canny\_detector.html}
+}
+
+
+
+
+
+
+
+@inproceedings{schroff_facenet_2015,
+	address = {Boston, MA, USA},
+	title = {{FaceNet}: {A} unified embedding for face recognition and clustering},
+	isbn = {9781467369640},
+	shorttitle = {{FaceNet}},
+	url = {http://ieeexplore.ieee.org/document/7298682/},
+	doi = {10.1109/CVPR.2015.7298682},
+	urldate = {2024-06-23},
+	booktitle = {2015 {IEEE} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} ({CVPR})},
+	publisher = {IEEE},
+	author = {Schroff, Florian and Kalenichenko, Dmitry and Philbin, James},
+	month = jun,
+	year = {2015},
+	pages = {815--823},
+}
+
+@article{nunn_compound_2021,
+	title = {Compound {Frechet} {Inception} {Distance} for {Quality} {Assessment} of {GAN} {Created} {Images}},
+	copyright = {arXiv.org perpetual, non-exclusive license},
+	url = {https://arxiv.org/abs/2106.08575},
+	doi = {10.48550/ARXIV.2106.08575},
+	abstract = {Generative adversarial networks or GANs are a type of generative modeling framework. GANs involve a pair of neural networks engaged in a competition in iteratively creating fake data, indistinguishable from the real data. One notable application of GANs is developing fake human faces, also known as "deep fakes," due to the deep learning algorithms at the core of the GAN framework. Measuring the quality of the generated images is inherently subjective but attempts to objectify quality using standardized metrics have been made. One example of objective metrics is the Frechet Inception Distance (FID), which measures the difference between distributions of feature vectors for two separate datasets of images. There are situations that images with low perceptual qualities are not assigned appropriate FID scores. We propose to improve the robustness of the evaluation process by integrating lower-level features to cover a wider array of visual defects. Our proposed method integrates three levels of feature abstractions to evaluate the quality of generated images. Experimental evaluations show better performance of the proposed method for distorted images.},
+	urldate = {2024-06-23},
+	author = {Nunn, Eric J. and Khadivi, Pejman and Samavi, Shadrokh},
+	year = {2021},
+	keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, Image and Video Processing (eess.IV)},
+}
+
+@article{dowson_frechet_1982,
+	title = {The {Fréchet} distance between multivariate normal distributions},
+	volume = {12},
+	issn = {0047-259X},
+	url = {https://www.sciencedirect.com/science/article/pii/0047259X8290077X},
+	doi = {10.1016/0047-259X(82)90077-X},
+	abstract = {The Fréchet distance between two multivariate normal distributions having means μX, μY and covariance matrices ΣX, ΣY is shown to be given by d2 = {\textbar}μX − μY{\textbar}2 + tr(ΣX + ΣY − 2(ΣXΣY)12). The quantity d0 given by d02 = tr(ΣX + ΣY − 2(ΣXΣY)12) is a natural metric on the space of real covariance matrices of given order.},
+	number = {3},
+	urldate = {2024-06-23},
+	journal = {Journal of Multivariate Analysis},
+	author = {Dowson, D. C and Landau, B. V},
+	month = sep,
+	year = {1982},
+	keywords = {Fréchet distance, covariance matrices, multivariate normal distributions},
+	pages = {450--455},
+}
+
+@inproceedings{kingma_adam_2014,
+  author    = {Diederik P. Kingma and Jimmy Ba},
+  title     = {Adam: A Method for Stochastic Optimization},
+  booktitle = {3rd International Conference for Learning Representations (ICLR)},
+  year      = {2015},
+  archivePrefix = {arXiv},
+  eprint    = {1412.6980},
+  url       = {https://arxiv.org/abs/1412.6980}
+}
+
+@article{goodfellow2020generative,
+  title={Generative adversarial networks},
+  author={Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+  journal={Communications of the ACM},
+  volume={63},
+  number={11},
+  pages={139--144},
+  year={2020},
+  publisher={ACM New York, NY, USA}
+}
+
+@InProceedings{10.1007/978-3-031-60615-1_5,
+author="Li, Jiayang
+and Li, Jiale
+and Su, Yunsheng",
+editor="Degen, Helmut
+and Ntoa, Stavroula",
+title="A Map of Exploring Human Interaction Patterns with LLM: Insights into Collaboration and Creativity",
+booktitle="Artificial Intelligence in HCI",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="60--85",
+abstract="The outstanding performance capabilities of large language model have driven the evolution of current AI system interaction patterns. This has led to considerable discussion within the Human-AI Interaction (HAII) community. Numerous studies explore this interaction from technical, design, and empirical perspectives. However, the majority of current literature reviews concentrate on interactions across the wider spectrum of AI, with limited attention given to the specific realm of interaction with LLM. We searched for articles on human interaction with LLM, selecting 110 relevant publications meeting consensus definition of Human-AI interaction. Subsequently, we developed a comprehensive Mapping Procedure, structured in five distinct stages, to systematically analyze and categorize the collected publications. Applying this methodical approach, we meticulously mapped the chosen studies, culminating in a detailed and insightful representation of the research landscape. Overall, our review presents an novel approach, introducing a distinctive mapping method, specifically tailored to evaluate human-LLM interaction patterns. We conducted a comprehensive analysis of the current research in related fields, employing clustering techniques for categorization, which enabled us to clearly delineate the status and challenges prevalent in each identified area.",
+isbn="978-3-031-60615-1"
+}
+
+@inproceedings{10.1145/3613904.3642698,
+author = {Liu, Yiren and Chen, Si and Cheng, Haocong and Yu, Mengxia and Ran, Xiao and Mo, Andrew and Tang, Yiliu and Huang, Yun},
+title = {How AI Processing Delays Foster Creativity: Exploring Research Question Co-Creation with an LLM-based Agent},
+year = {2024},
+isbn = {9798400703300},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3613904.3642698},
+doi = {10.1145/3613904.3642698},
+abstract = {Developing novel research questions (RQs) often requires extensive literature reviews, especially in interdisciplinary fields. To support RQ development through human-AI co-creation, we leveraged Large Language Models (LLMs) to build an LLM-based agent system named CoQuest. We conducted an experiment with 20 HCI researchers to examine the impact of two interaction designs: breadth-first and depth-first RQ generation. The findings revealed that participants perceived the breadth-first approach as more creative and trustworthy upon task completion. Conversely, during the task, participants considered the depth-first generated RQs as more creative. Additionally, we discovered that AI processing delays allowed users to reflect on multiple RQs simultaneously, leading to a higher quantity of generated RQs and an enhanced sense of control. Our work makes both theoretical and practical contributions by proposing and evaluating a mental model for human-AI co-creation of RQs. We also address potential ethical issues, such as biases and over-reliance on AI, advocating for using the system to improve human research creativity rather than automating scientific inquiry. The system’s source is available at: https://github.com/yiren-liu/coquest.},
+booktitle = {Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems},
+articleno = {17},
+numpages = {25},
+keywords = {Co-creation Systems, Large Language Models, Mixed-initiative Design, Scientifc Discovery},
+location = {Honolulu, HI, USA},
+series = {CHI '24}
+}
+
+@INPROCEEDINGS{10449667,
+  author={Fan, Angela and Gokkaya, Beliz and Harman, Mark and Lyubarskiy, Mitya and Sengupta, Shubho and Yoo, Shin and Zhang, Jie M.},
+  booktitle={2023 IEEE/ACM International Conference on Software Engineering: Future of Software Engineering (ICSE-FoSE)}, 
+  title={Large Language Models for Software Engineering: Survey and Open Problems}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={31-53},
+  keywords={Surveys;Maintenance engineering;Reliability engineering;Software;Software reliability;Software engineering;Testing;Automated Program Repair;Documentation generation;Generative AI;Genetic Improvement;Human-Computer Interaction;Large Language Models;Refactoring;Requirements engineering;Search Based Software Engineering (SBSE);Software Analytics;Software Engineering Education;Software Processes;Software Maintenance and Evolution;Software Testing},
+  doi={10.1109/ICSE-FoSE59343.2023.00008}}
+
+
+@article{Meng,
+author = {Meng, Shixuan and Jiang, Rongxin and Tian, Xiang and Zhou, Fan and Chen, Yaowu and Liu, Junjie and Shen, Chen},
+title = {Multi-Label Zero-Shot Learning Via Contrastive Label-Based Attention},
+journal = {International Journal of Neural Systems},
+volume = {35},
+number = {03},
+pages = {2550010},
+year = {2025},
+doi = {10.1142/S0129065725500108},
+    note ={PMID: 39851003},
+
+URL = {https://doi.org/10.1142/S0129065725500108},
+eprint = {https://doi.org/10.1142/S0129065725500108}
+,
+    abstract = { Multi-label zero-shot learning (ML-ZSL) strives to recognize all objects in an image, regardless of whether they are present in the training data. Recent methods incorporate an attention mechanism to locate labels in the image and generate class-specific semantic information. However, the attention mechanism built on visual features treats label embeddings equally in the prediction score, leading to severe semantic ambiguity. This study focuses on efficiently utilizing semantic information in the attention mechanism. We propose a contrastive label-based attention method (CLA) to associate each label with the most relevant image regions. Specifically, our label-based attention, guided by the latent label embedding, captures discriminative image details. To distinguish region-wise correlations, we implement a region-level contrastive loss. In addition, we utilize a global feature alignment module to identify labels with general information. Extensive experiments on two benchmarks, NUS-WIDE and Open Images, demonstrate that our CLA outperforms the state-of-the-art methods. Especially under the ZSL setting, our method achieves 2.0\% improvements in mean Average Precision (mAP) for NUS-WIDE and 4.0\% for Open Images compared with recent methods. }
+}
+
+@article{kingma_adam_2014_old2,
+  title={Adam: A Method for Stochastic Optimization},
+  author={Diederik P. Kingma and Jimmy Ba},
+  journal={CoRR},
+  year={2014},
+  volume={abs/1412.6980},
+  url={https://api.semanticscholar.org/CorpusID:6628106}
+}
+
+@article{kingma_adam_2014_old,
+	title = {Adam: {A} {Method} for {Stochastic} {Optimization}},
+	copyright = {arXiv.org perpetual, non-exclusive license},
+	shorttitle = {Adam},
+	url = {https://arxiv.org/abs/1412.6980},
+	doi = {10.48550/ARXIV.1412.6980},
+	abstract = {We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions, based on adaptive estimates of lower-order moments. The method is straightforward to implement, is computationally efficient, has little memory requirements, is invariant to diagonal rescaling of the gradients, and is well suited for problems that are large in terms of data and/or parameters. The method is also appropriate for non-stationary objectives and problems with very noisy and/or sparse gradients. The hyper-parameters have intuitive interpretations and typically require little tuning. Some connections to related algorithms, on which Adam was inspired, are discussed. We also analyze the theoretical convergence properties of the algorithm and provide a regret bound on the convergence rate that is comparable to the best known results under the online convex optimization framework. Empirical results demonstrate that Adam works well in practice and compares favorably to other stochastic optimization methods. Finally, we discuss AdaMax, a variant of Adam based on the infinity norm.},
+	urldate = {2024-06-23},
+	author = {Kingma, Diederik P. and Ba, Jimmy},
+	year = {2014},
+	keywords = {FOS: Computer and information sciences, Machine Learning (cs.LG)},
+}
+
+@inproceedings{vincent_extracting_2008,
+	address = {Helsinki, Finland},
+	title = {Extracting and composing robust features with denoising autoencoders},
+	isbn = {9781605582054},
+	url = {http://portal.acm.org/citation.cfm?doid=1390156.1390294},
+	doi = {10.1145/1390156.1390294},
+	language = {en},
+	urldate = {2024-06-22},
+	booktitle = {Proceedings of the 25th international conference on {Machine} learning - {ICML} '08},
+	publisher = {ACM Press},
+	author = {Vincent, Pascal and Larochelle, Hugo and Bengio, Yoshua and Manzagol, Pierre-Antoine},
+	year = {2008},
+	pages = {1096--1103},
+}
+
+@conference{tschannen_recent_2018,
+    author = {Tschannen, Michael and Bachem, Olivier and Lucic, Mario},
+    title = {Recent advances in autoencoder-based representation learning},
+    booktitle = {Third workshop on Bayesian Deep Learning (NeurIPS 2018)},
+    year = 2018,
+    keywords = {autoencoder, variational autoencoder, representation learning, disentanglement, rate-distortion tradeoff, unsupervised},
+    url = {http://www.nari.ee.ethz.ch/pubs/p/autoenc2018}
+}
+
+@misc{tschannen_recent_2018_old,
+	title = {Recent {Advances} in {Autoencoder}-{Based} {Representation} {Learning}},
+	url = {http://arxiv.org/abs/1812.05069},
+	doi = {10.48550/arXiv.1812.05069},
+	abstract = {Learning useful representations with little or no supervision is a key challenge in artificial intelligence. We provide an in-depth review of recent advances in representation learning with a focus on autoencoder-based models. To organize these results we make use of meta-priors believed useful for downstream tasks, such as disentanglement and hierarchical organization of features. In particular, we uncover three main mechanisms to enforce such properties, namely (i) regularizing the (approximate or aggregate) posterior distribution, (ii) factorizing the encoding and decoding distribution, or (iii) introducing a structured prior distribution. While there are some promising results, implicit or explicit supervision remains a key enabler and all current methods use strong inductive biases and modeling assumptions. Finally, we provide an analysis of autoencoder-based representation learning through the lens of rate-distortion theory and identify a clear tradeoff between the amount of prior knowledge available about the downstream tasks, and how useful the representation is for this task.},
+	urldate = {2024-06-22},
+	publisher = {arXiv},
+	author = {Tschannen, Michael and Bachem, Olivier and Lucic, Mario},
+	month = dec,
+	year = {2018},
+	note = {arXiv:1812.05069 [cs, stat]},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning, Statistics - Machine Learning},
+}
+
+@article{sreedhar_enhancement_2012,
+	title = {Enhancement of {Images} {Using} {Morphological} {Transformations}},
+	volume = {4},
+	issn = {09754660},
+	url = {http://www.airccse.org/journal/jcsit/0212csit03.pdf},
+	doi = {10.5121/ijcsit.2012.4103},
+	number = {1},
+	urldate = {2024-06-22},
+	journal = {International Journal of Computer Science and Information Technology},
+	author = {Sreedhar, K},
+	month = feb,
+	year = {2012},
+	pages = {33--50},
+}
+
+@article{deshpande_learning_2016,
+	title = {Learning {Diverse} {Image} {Colorization}},
+	copyright = {arXiv.org perpetual, non-exclusive license},
+	url = {https://arxiv.org/abs/1612.01958},
+	doi = {10.48550/ARXIV.1612.01958},
+	abstract = {Colorization is an ambiguous problem, with multiple viable colorizations for a single grey-level image. However, previous methods only produce the single most probable colorization. Our goal is to model the diversity intrinsic to the problem of colorization and produce multiple colorizations that display long-scale spatial co-ordination. We learn a low dimensional embedding of color fields using a variational autoencoder (VAE). We construct loss terms for the VAE decoder that avoid blurry outputs and take into account the uneven distribution of pixel colors. Finally, we build a conditional model for the multi-modal distribution between grey-level image and the color field embeddings. Samples from this conditional model result in diverse colorization. We demonstrate that our method obtains better diverse colorizations than a standard conditional variational autoencoder (CVAE) model, as well as a recently proposed conditional generative adversarial network (cGAN).},
+	urldate = {2024-06-22},
+	author = {Deshpande, Aditya and Lu, Jiajun and Yeh, Mao-Chuang and Chong, Min Jin and Forsyth, David},
+	year = {2016},
+	keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences},
+}
+
+@article{liu_unsupervised_2019,
+	title = {Unsupervised {Sketch}-to-{Photo} {Synthesis}},
+	copyright = {arXiv.org perpetual, non-exclusive license},
+	url = {https://arxiv.org/abs/1909.08313},
+	doi = {10.48550/ARXIV.1909.08313},
+	abstract = {Humans can envision a realistic photo given a free-hand sketch that is not only spatially imprecise and geometrically distorted but also without colors and visual details. We study unsupervised sketch-to-photo synthesis for the first time, learning from unpaired sketch-photo data where the target photo for a sketch is unknown during training. Existing works only deal with style change or spatial deformation alone, synthesizing photos from edge-aligned line drawings or transforming shapes within the same modality, e.g., color images. Our key insight is to decompose unsupervised sketch-to-photo synthesis into a two-stage translation task: First shape translation from sketches to grayscale photos and then content enrichment from grayscale to color photos. We also incorporate a self-supervised denoising objective and an attention module to handle abstraction and style variations that are inherent and specific to sketches. Our synthesis is sketch-faithful and photo-realistic to enable sketch-based image retrieval in practice. An exciting corollary product is a universal and promising sketch generator that captures human visual perception beyond the edge map of a photo.},
+	urldate = {2024-06-22},
+	author = {Liu, Runtao and Yu, Qian and Yu, Stella},
+	year = {2019},
+	keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences},
+}
+
+@article{devakumar_forensic_2023,
+	title = {Forensic {Sketch} to {Real} {Image} {Using} {DCGAN}},
+	volume = {218},
+	issn = {18770509},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S1877050923001394},
+	doi = {10.1016/j.procs.2023.01.139},
+	language = {en},
+	urldate = {2024-06-22},
+	journal = {Procedia Computer Science},
+	author = {Devakumar, Sreedev and Sarath, Greeshma},
+	year = {2023},
+	pages = {1612--1620},
+}
+
+@article{zhao_generating_2019,
+	title = {Generating {Photographic} {Faces} {From} the {Sketch} {Guided} by {Attribute} {Using} {GAN}},
+	volume = {7},
+	copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/OAPA.html},
+	issn = {2169-3536},
+	url = {https://ieeexplore.ieee.org/document/8642316/},
+	doi = {10.1109/ACCESS.2019.2899466},
+	urldate = {2024-06-22},
+	journal = {IEEE Access},
+	author = {Zhao, Jian and Xie, Xie and Wang, Lin and Cao, Meng and Zhang, Miao},
+	year = {2019},
+	pages = {23844--23851},
+}
+
+@article{cunneen_autonomous_2019,
+	title = {Autonomous {Vehicles} and {Embedded} {Artificial} {Intelligence}: {The} {Challenges} of {Framing} {Machine} {Driving} {Decisions}},
+	volume = {33},
+	issn = {0883-9514, 1087-6545},
+	shorttitle = {Autonomous {Vehicles} and {Embedded} {Artificial} {Intelligence}},
+	url = {https://www.tandfonline.com/doi/full/10.1080/08839514.2019.1600301},
+	doi = {10.1080/08839514.2019.1600301},
+	language = {en},
+	number = {8},
+	urldate = {2024-06-22},
+	journal = {Applied Artificial Intelligence},
+	author = {Cunneen, Martin and Mullins, Martin and Murphy, Finbarr},
+	month = jul,
+	year = {2019},
+	pages = {706--731},
+}
+
+@article{kebaili_deep_2023,
+	title = {Deep {Learning} {Approaches} for {Data} {Augmentation} in {Medical} {Imaging}: {A} {Review}},
+	volume = {9},
+	copyright = {http://creativecommons.org/licenses/by/3.0/},
+	issn = {2313-433X},
+	shorttitle = {Deep {Learning} {Approaches} for {Data} {Augmentation} in {Medical} {Imaging}},
+	url = {https://www.mdpi.com/2313-433X/9/4/81},
+	doi = {10.3390/jimaging9040081},
+	abstract = {Deep learning has become a popular tool for medical image analysis, but the limited availability of training data remains a major challenge, particularly in the medical field where data acquisition can be costly and subject to privacy regulations. Data augmentation techniques offer a solution by artificially increasing the number of training samples, but these techniques often produce limited and unconvincing results. To address this issue, a growing number of studies have proposed the use of deep generative models to generate more realistic and diverse data that conform to the true distribution of the data. In this review, we focus on three types of deep generative models for medical image augmentation: variational autoencoders, generative adversarial networks, and diffusion models. We provide an overview of the current state of the art in each of these models and discuss their potential for use in different downstream tasks in medical imaging, including classification, segmentation, and cross-modal translation. We also evaluate the strengths and limitations of each model and suggest directions for future research in this field. Our goal is to provide a comprehensive review about the use of deep generative models for medical image augmentation and to highlight the potential of these models for improving the performance of deep learning algorithms in medical image analysis.},
+	language = {en},
+	number = {4},
+	urldate = {2024-06-22},
+	journal = {Journal of Imaging},
+	author = {Kebaili, Aghiles and Lapuyade-Lahorgue, Jérôme and Ruan, Su},
+	month = apr,
+	year = {2023},
+	keywords = {data augmentation, deep learning, diffusion models, generative models, medical imaging, variational autoencoders},
+	pages = {81},
+}
+
+@article{chiu_robust_2010,
+	title = {A {Robust} {Object} {Segmentation} {System} {Using} a {Probability}-{Based} {Background} {Extraction} {Algorithm}},
+	volume = {20},
+	issn = {1558-2205},
+	url = {https://ieeexplore.ieee.org/document/5308423},
+	doi = {10.1109/TCSVT.2009.2035843},
+	abstract = {A video-based monitoring system must be capable of continuous operation under various weather and illumination conditions. Moreover, background subtraction is a very important part of surveillance applications for successful segmentation of objects from video sequences, and the accuracy, computational complexity, and memory requirements of the initial background extraction are crucial in any background subtraction method. This paper proposes an algorithm to extract initial color backgrounds from surveillance videos using a probability-based background extraction algorithm. With the proposed algorithm, the initial background can be extracted accurately and quickly, while using relatively little memory. The intrusive objects can then be segmented quickly and correctly by a robust object segmentation algorithm. The segmentation algorithm analyzes the threshold values of the background subtraction from the prior frame to obtain good quality while minimizing execution time and maximizing detection accuracy. The color background images can be extracted efficiently and quickly from color image sequences and updated in real time to overcome any variation in illumination conditions. Experimental results for various environmental sequences and a quantitative evaluation are provided to demonstrate the robustness, accuracy, effectiveness, and memory economy of the proposed algorithm.},
+	number = {4},
+	urldate = {2024-06-22},
+	journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+	author = {Chiu, Chung-Cheng and Ku, Min-Yu and Liang, Li-Wey},
+	month = apr,
+	year = {2010},
+	keywords = {Algorithm design and analysis, Background subtraction, Color, Computational complexity, Condition monitoring, Image segmentation, Lighting, Object segmentation, Robustness, Surveillance, Video sequences, initial background extraction, object segmentation, probability-based background extraction},
+	pages = {518--528},
+}
+
+
+
+
+
+
+@article{fareed_exploring_2024,
+	title = {Exploring the {Potentials} of {Artificial} {Intelligence} {Image} {Generators} for {Educating} the {History} of {Architecture}},
+	volume = {7},
+	copyright = {https://creativecommons.org/licenses/by/4.0/},
+	issn = {2571-9408},
+	url = {https://www.mdpi.com/2571-9408/7/3/81},
+	doi = {10.3390/heritage7030081},
+	abstract = {The rapid integration of Artificial Intelligence (AI) tools, specifically text-to-image generators, across various domains has had a profound impact on numerous fields. Despite this, the potential applications of AI image generators in architectural education, particularly in teaching the history of architecture, remain underexplored. This research aims to uncover the possibilities of utilizing AI image generators, with a specific focus on the capabilities of Leonardo AI, to enhance communication and engagement. This study employed an experimental methodology to investigate how the integration of AI image generators in education on the subject of “History of Architecture” promises to elevate the learning experience, offering new perspectives, visualizations, and interactive tools. Two workshops were conducted with university students to explore AI image generators’ potential applications in architectural history education. The first workshop utilized an iterative approach, while the second aimed to assess students’ analytical skills. The ultimate objective was to determine the capabilities of this tool and stimulate discussions regarding its potential future implementations. Following the workshops, online questionnaires were administered to students, and interviews were conducted with educators. The findings of this research underscore the need for validating AI-generated images, establishing guidelines to prevent misuse, and designing tailored AI tools for History of Architecture courses, thereby paving the way for further advancements in architectural history education.},
+	language = {en},
+	number = {3},
+	urldate = {2024-06-23},
+	journal = {Heritage},
+	author = {Fareed, Mohamed W. and Bou Nassif, Ali and Nofal, Eslam},
+	month = mar,
+	year = {2024},
+	pages = {1727--1753},
+}
+
+@article{edwards_sketch2prototype_2024,
+	title = {{Sketch2Prototype}: rapid conceptual design exploration and prototyping with generative {AI}},
+	volume = {4},
+	copyright = {http://creativecommons.org/licenses/by-nc-nd/4.0/},
+	issn = {2732-527X},
+	shorttitle = {{Sketch2Prototype}},
+	url = {https://www.cambridge.org/core/product/identifier/S2732527X24002013/type/journal_article},
+	doi = {10.1017/pds.2024.201},
+	abstract = {Abstract 
+            Sketch2Prototype is an AI-based framework that transforms a hand-drawn sketch into a diverse set of 2D images and 3D prototypes through sketch-to-text, text-to-image, and image-to-3D stages. This framework, shown across various sketches, rapidly generates text, image, and 3D modalities for enhanced early-stage design exploration. We show that using text as an intermediate modality outperforms direct sketch-to-3D baselines for generating diverse and manufacturable 3D models. We find limitations in current image-to-3D techniques, while noting the value of the text modality for user-feedback.},
+	language = {en},
+	urldate = {2024-06-23},
+	journal = {Proceedings of the Design Society},
+	author = {Edwards, Kristen M. and Man, Brandon and Ahmed, Faez},
+	month = may,
+	year = {2024},
+	pages = {1989--1998},
+}
+
+@article{xue_end--end_2020,
+	title = {End-to-{End} {Chinese} {Landscape} {Painting} {Creation} {Using} {Generative} {Adversarial} {Networks}},
+	copyright = {arXiv.org perpetual, non-exclusive license},
+	url = {https://arxiv.org/abs/2011.05552},
+	doi = {10.48550/ARXIV.2011.05552},
+	abstract = {Current GAN-based art generation methods produce unoriginal artwork due to their dependence on conditional input. Here, we propose Sketch-And-Paint GAN (SAPGAN), the first model which generates Chinese landscape paintings from end to end, without conditional input. SAPGAN is composed of two GANs: SketchGAN for generation of edge maps, and PaintGAN for subsequent edge-to-painting translation. Our model is trained on a new dataset of traditional Chinese landscape paintings never before used for generative research. A 242-person Visual Turing Test study reveals that SAPGAN paintings are mistaken as human artwork with 55\% frequency, significantly outperforming paintings from baseline GANs. Our work lays a groundwork for truly machine-original art generation.},
+	urldate = {2024-06-23},
+	author = {Xue, Alice},
+	year = {2020},
+	keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, Image and Video Processing (eess.IV), Machine Learning (cs.LG)},
+}
+
+@misc{li_sketch--architecture_2024,
+	title = {Sketch-to-{Architecture}: {Generative} {AI}-aided {Architectural} {Design}},
+	shorttitle = {Sketch-to-{Architecture}},
+	url = {http://arxiv.org/abs/2403.20186},
+	doi = {10.48550/arXiv.2403.20186},
+	abstract = {Recently, the development of large-scale models has paved the way for various interdisciplinary research, including architecture. By using generative AI, we present a novel workflow that utilizes AI models to generate conceptual floorplans and 3D models from simple sketches, enabling rapid ideation and controlled generation of architectural renderings based on textual descriptions. Our work demonstrates the potential of generative AI in the architectural design process, pointing towards a new direction of computer-aided architectural design. Our project website is available at: https://zrealli.github.io/sketch2arc},
+	urldate = {2024-06-23},
+	publisher = {arXiv},
+	author = {Li, Pengzhi and Li, Baijuan and Li, Zhiheng},
+	month = mar,
+	year = {2024},
+	note = {arXiv:2403.20186 [cs]},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+}
+
+
+
+@inproceedings{zhang_coupled_2011,
+	title = {Coupled information-theoretic encoding for face photo-sketch recognition},
+	url = {https://ieeexplore.ieee.org/document/5995324},
+	doi = {10.1109/CVPR.2011.5995324},
+	abstract = {Automatic face photo-sketch recognition has important applications for law enforcement. Recent research has focused on transforming photos and sketches into the same modality for matching or developing advanced classification algorithms to reduce the modality gap between features extracted from photos and sketches. In this paper, we propose a new inter-modality face recognition approach by reducing the modality gap at the feature extraction stage. A new face descriptor based on coupled information-theoretic encoding is used to capture discriminative local face structures and to effectively match photos and sketches. Guided by maximizing the mutual information between photos and sketches in the quantized feature spaces, the coupled encoding is achieved by the proposed coupled information-theoretic projection tree, which is extended to the randomized forest to further boost the performance. We create the largest face sketch database including sketches of 1, 194 people from the FERET database. Experiments on this large scale dataset show that our approach significantly outperforms the state-of-the-art methods.},
+	urldate = {2024-07-27},
+	booktitle = {{CVPR} 2011},
+	author = {Zhang, Wei and Wang, Xiaogang and Tang, Xiaoou},
+	month = jun,
+	year = {2011},
+	note = {ISSN: 1063-6919},
+	keywords = {Databases, Encoding, Face, Face recognition, Feature extraction, Mutual information, Vegetation},
+	pages = {513--520},
+}
